@@ -1,10 +1,10 @@
-@extends('post.layout')
+@extends('posts.layout')
  
 @section('content')
     <div class="row">
         <div class="col-lg-12 margin-tb">
             <div class="pull-left">
-                <h2>Laravel 9 CRUD Operation Example - websolutionstuff.com</h2>
+                <h2>CRUD Operation Example - https://github.com/joseph-mitambo/CRUD.git</h2>
             </div>
             <div class="pull-right">
                 <a class="btn btn-success" href="{{ route('posts.create') }}"> Create New Post</a>
